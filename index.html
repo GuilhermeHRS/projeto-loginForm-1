@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário Login</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <form>
+          <h1>Login</h1>
+          <div class="input-container">
+            <label for="login">E-mail:</label>
+            <input type="email" name="email" placeholder="Digite o E-mail" />
+          </div>
+
+          <div class="input-container">
+            <label for="password">Senha:</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="********"
+              minlength="8"
+              maxlength="16"
+            />
+          </div>
+
+          <div class="input-select">
+            <div class="input-check_box">
+              <input type="checkbox" />
+              <label for="connected">Ficar conectado</label>
+            </div>
+
+            <p href="#" class="forgot-password">
+              Esqueceu a <a href="#" class="register-link">senha</a>?
+            </p>
+          </div>
+
+          <input
+            type="submit"
+            name="submit"
+            class="submit-btn"
+            value="Entrar"
+          />
+
+          <p class="register-container">
+            Não tem uma conta? <a href="#" class="register-link">Cadastre-se</a>
+          </p>
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>
