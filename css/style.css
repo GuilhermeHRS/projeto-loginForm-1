@@ -1,16 +1,16 @@
 @font-face {
   font-family: "pp-light";
-  src: url("/font/Poppins/Poppins-Light.ttf");
+  src: url("../font/Poppins/Poppins-Light.ttf"); 
 }
 
 @font-face {
   font-family: "pp-reg";
-  src: url("/font/Poppins/Poppins-Regular.ttf");
+  src: url("../font/Poppins/Poppins-Regular.ttf"); 
 }
 
 @font-face {
   font-family: "pp-bold";
-  src: url("/font/Poppins/Poppins-Bold.ttf");
+  src: url("../font/Poppins/Poppins-Bold.ttf"); 
 }
 
 /* RESET CSS */
@@ -62,7 +62,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  background-image: url(/img/blurry-gradient-haikei.svg);
+  background-image: url(../img/blurry-gradient-haikei.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
